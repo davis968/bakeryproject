@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff0f5;
+    color: #8B2252;
+    margin: 0;
+}
+
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    background-color: deeppink;
+    color: white;
+    padding: 15px;
+    margin: 0;
+    font-size: 45px;
+}
+
+
+nav {
+    background-color: pink;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8B2252;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+.order-container {
+    background-color: white;
+    width: 40%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    margin-top: 12px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+
+
+.size-options {
+    display: flex;
+    gap: 20px;
+}
+
+.size-options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+button {
+    background-color: deeppink;
+    color: white;
+    padding: 12px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8B2252;
+}
+
+
+footer {
+    background-color: pink;
+    padding: 10px;
+    margin-top: 30px;
+}
+

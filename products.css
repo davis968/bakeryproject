@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    text-align: center;
+    background-color: #fff0f5;
+    color: #8B2252;
+    margin: 0;
+}
+
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    background-color: deeppink;
+    color: white;
+    padding: 15px;
+    margin: 0;
+    font-size: 45px;
+}
+
+
+nav {
+    background-color: pink;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8B2252;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.product-card {
+    background-color: white;
+    width: 220px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+
+
+.product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    color: deeppink;
+}
+
+.product-card p {
+    font-size: 14px;
+}
+
+.price {
+    font-weight: bold;
+    color: #8B2252;
+}
+
+
+.order-link {
+    background-color: deeppink;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.order-link:hover {
+    background-color: #8B2252;
+}
+
+
+footer {
+    background-color: pink;
+    padding: 10px;
+    margin-top: 30px;
+}

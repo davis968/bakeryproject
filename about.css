@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff0f5;
+    color: #8B2252;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    background-color: deeppink;
+    color: white;
+    padding: 15px;
+    margin: 0;
+    font-size: 45px;
+}
+
+nav {
+    background-color: pink;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8B2252;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+.about-container {
+    background-color: white;
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-container p {
+    line-height: 1.7;
+}
+
+
+.mission-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px;
+}
+
+.mission {
+    background-color: pink;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mission h3 {
+    color: deeppink;
+}
+
+
+footer {
+    background-color: pink;
+    padding: 10px;
+    margin-top: 30px;
+}

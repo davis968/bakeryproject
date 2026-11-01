@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Place an Order - Keki-Keki Bakery</title>
+    <link rel="stylesheet" href="orderpagecss.css">
+</head>
+
+<body>
+
+    <h1>KEKI-KEKI</h1>
+
+    <nav>
+        <a href="bakery.html">Home</a> |
+        <a href="products.html">Products</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="order.html">Order</a>
+    </nav>
+
+    <h2>PLACE YOUR ORDER</h2>
+
+    <p>Fill in the form below to order your favourite treats!</p>
+
+    <div class="order-container">
+
+        <form >
+
+            <label>Full Name</label>
+            <input type="text" name="fullname"
+            placeholder="Enter your full name" required>
+
+            <label>Phone Number</label>
+            <input type="tel" name="phone"
+            placeholder="Enter your phone number" required>
+
+            <label>Delivery Location</label>
+            <input type="text" name="location"
+            placeholder="Enter your location" required>
+
+            <label>Delivery Date</label>
+            <input type="date" name="date" required>
+
+            <label>Select Product</label>
+
+<select name="product" required>
+    <option value="">Choose a product</option>
+    <option>Birthday Cakes</option>
+    <option>Fresh Bread</option>
+    <option>Cupcakes</option>
+    <option>Cookies</option>
+    <option>Donuts</option>
+    <option>Croissants</option>
+    <option>Muffins</option>
+    <option>Meat Pies</option>
+    <option>Sausage Rolls</option>
+    <option>Chocolate Brownies</option>
+    <option>Cheesecake</option>
+    <option>Swiss Roll</option>
+</select>
+
+            <label>Choose Size</label>
+
+            <div class="size-options">
+                <label>
+                    <input type="radio" name="size" value="Small" required>
+                    Small
+                </label>
+
+                <label>
+                    <input type="radio" name="size" value="Medium">
+                    Medium
+                </label>
+
+                <label>
+                    <input type="radio" name="size" value="Large">
+                    Large
+                </label>
+            </div>
+
+            <label>Quantity</label>
+            <input type="number" name="quantity" min="1" value="1" required>
+
+            <label>Additional Instructions</label>
+            <textarea ></textarea>
+
+            <button type="submit">Submit Order</button>
+
+        </form>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Keki-Keki Bakery. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

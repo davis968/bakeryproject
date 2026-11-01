@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    text-align: center;
+    background-color: #fff0f5;
+    color: #8B2252;
+    margin: 0;
+}
+
+/* Heading */
+h1 {
+    font-family: 'Pacifico', cursive;
+    background-color: deeppink;
+    color: white;
+    padding: 15px;
+    margin: 0;
+    font-size: 45px;
+}
+
+/* Navigation */
+nav {
+    background-color: pink;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8B2252;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Section headings */
+h2 {
+    color: deeppink;
+}
+
+
+/* Cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 220px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card h3 {
+    color: deeppink;
+}
+
+/* Product link */
+.product-link {
+    background-color: deeppink;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: pink;
+    padding: 10px;
+}
